@@ -1,0 +1,20 @@
+# Core dependencies
+pandas>=2.0.0
+pyarrow>=14.0.0
+tqdm>=4.66.0
+numpy>=1.24.0
+
+# Embedding model (for step 05)
+sentence-transformers>=2.2.0
+torch>=2.0.0
+
+# HuggingFace integration
+datasets>=2.14.0
+huggingface_hub>=0.19.0
+
+# API utilities
+requests>=2.31.0
+
+# Optional: vLLM for local model deployment
+# Uncomment if deploying local vLLM server
+# vllm>=0.4.0
