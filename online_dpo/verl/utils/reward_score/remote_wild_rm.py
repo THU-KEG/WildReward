@@ -7,7 +7,7 @@ from transformers import AutoTokenizer
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 
-api_url = None
+api_url = os.environ["REWARD_MODEL_ENDPOINT"]
 
 
 # ======================
