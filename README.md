@@ -70,7 +70,7 @@ WildReward demonstrates superior calibration properties compared to conventional
 
 ## 📂 Data & Models
 
-*   **WildFB Dataset:** https://huggingface.co/THU-KEG/WildFB
+*   **WildFB Dataset:** https://huggingface.co/datasets/THU-KEG/WildFB
 *   **WildReward Models:** https://huggingface.co/THU-KEG/WildReward-8B
 
 ## Project Structure
