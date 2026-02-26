@@ -1,5 +1,6 @@
 # 🦁 WildReward: Learning Reward Models from In-the-Wild Interactions
 
+[![Paper](https://img.shields.io/badge/arXiv-2602.08829-B31B1B.svg)](https://arxiv.org/abs/2602.08829)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
 [![Dataset](https://img.shields.io/badge/Dataset-WildFB-green.svg)](https://huggingface.co/datasets/THU-KEG/WildFB)
 [![Model](https://img.shields.io/badge/Model-WildReward-orange.svg)](https://huggingface.co/THU-KEG/WildReward-8B)
