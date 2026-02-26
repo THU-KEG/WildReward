@@ -107,6 +107,18 @@ def load_data(input_file, n=1):
                     )
         return dataset, raw_dataset
 
+    dataset = []
+    raw_dataset = []
+    with open(input_file) as f:
+        for line in f.readlines():
+            item = json.loads(line.strip())
+            for _ in range(n):
+                raw_dataset.append(item)
+                dataset.append(
+                    [{"role": "user", "content": item["prompt"]}]
+                )
+    return dataset, raw_dataset
+
 
 def main(args, input_file, model, n):
     if args.api_model:
@@ -196,6 +208,7 @@ if __name__ == "__main__":
         # model = ZAIModel(model_name=args.model_name_or_path, api_key=os.environ["OPENAI_API_KEY"])
     else:
         model = vLLMModel(args.model_name_or_path, num_gpus=args.n_gpus, vllm_gpu_util=0.9)
+    print(args)
     outputs = main(args, args.input_file, model, args.n)
     # if args.api_model: # merge
     #     outputs = merge_api_results(outputs)

@@ -283,6 +283,8 @@ def filter_dataset(input_file):
             counter[item["label"]] += 1
             all_lengths[item["label"]] += response_len
             # print()
+            if item["label"] not in [1, 2, 3, 4, 5]:
+                continue
             item["label"] = label_map[item["label"]]
             item["text"] = build_text(item)
             new_item = {
