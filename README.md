@@ -1,7 +1,7 @@
 # 🦁 WildReward: Learning Reward Models from In-the-Wild Interactions
 
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
-[![Dataset](https://img.shields.io/badge/Dataset-WildFB-green.svg)](https://huggingface.co/THU-KEG/WildFB)
+[![Dataset](https://img.shields.io/badge/Dataset-WildFB-green.svg)](https://huggingface.co/datasets/THU-KEG/WildFB)
 [![Model](https://img.shields.io/badge/Model-WildReward-orange.svg)](https://huggingface.co/THU-KEG/WildReward-8B)
 
 > **Can we develop reward models directly from in-the-wild interactions without human-annotated preference pairs?**
