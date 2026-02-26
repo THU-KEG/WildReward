@@ -181,6 +181,15 @@ Key training features:
 ## Citation
 
 ```bibtex
+@misc{peng2026wildrewardlearningrewardmodels,
+      title={WildReward: Learning Reward Models from In-the-Wild Human Interactions}, 
+      author={Hao Peng and Yunjia Qi and Xiaozhi Wang and Zijun Yao and Lei Hou and Juanzi Li},
+      year={2026},
+      eprint={2602.08829},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2602.08829}, 
+}
 ```
 
 ## License
