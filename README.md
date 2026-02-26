@@ -4,7 +4,7 @@
 [![Dataset](https://img.shields.io/badge/Dataset-WildFB-green.svg)](https://huggingface.co/datasets/THU-KEG/WildFB)
 [![Model](https://img.shields.io/badge/Model-WildReward-orange.svg)](https://huggingface.co/THU-KEG/WildReward-8B)
 
-> **Can we develop reward models directly from in-the-wild interactions without human-annotated preference pairs?**
+> **Can we develop reward models directly from in-the-wild interactions?**
 
 **WildReward** is a novel framework that explores the potential of training Reward Models (RMs) using large-scale, real-world human-LLM interactions (sourced from WildChat). By extracting implicit reward signals from user feedback, WildReward achieves state-of-the-art performance without relying on expensive, manually annotated preference pairs.
 
